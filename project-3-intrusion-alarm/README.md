@@ -20,7 +20,7 @@ that layered approach using both a motion sensor and a physical tamper switch.
 <img width="1271" height="850" alt="image" src="https://github.com/user-attachments/assets/e002722c-9b1f-412c-b0bb-9f2ac9eda05b" />
 
 ## Build & Test Process
-The PIR sensor was powered and allowed its ~60-second warm-up period before testing mo
+The PIR sensor was powered and allowed its ~10-second warm-up period before testing mo
 tion detection via Serial Monitor. The tilt switch was tested independently with a pull-down
 resistor to confirm a clean HIGH/LOW transition on tilt. The arm/disarm button, RGB LED, and
 transistor-driven buzzer were each verified individually. All sub-circuits were then combined
