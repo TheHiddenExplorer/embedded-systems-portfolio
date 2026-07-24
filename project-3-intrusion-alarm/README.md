@@ -1,4 +1,4 @@
-# Project3: Perimeter Intrusion Alarm with Tamper Detection
+# Project 3: Perimeter Intrusion Alarm with Tamper Detection
 
 ## Problem This Solves
 Basic motion-only alarms can be bypassed by disabling or moving the sensor housing itself. Com
