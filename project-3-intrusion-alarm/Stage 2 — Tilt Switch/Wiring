@@ -1,0 +1,4 @@
+The tilt switch has 2 legs, no polarity. Connect one leg to the red (5V) rail. Connect the
+other leg to Arduino D3, AND to one leg of a 10kΩ resistor whose other leg goes to the blue (GND)
+rail — this resistor is called a “pull-down” and ensures the pin reads a clean LOW when the switch
+is open, rather than a floating, unpredictable value.
