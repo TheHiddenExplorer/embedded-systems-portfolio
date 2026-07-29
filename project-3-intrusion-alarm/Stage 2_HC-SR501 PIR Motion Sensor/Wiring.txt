@@ -1,0 +1,1 @@
+3 pins: VCC, OUT, GND. VCC → red rail. GND → blue rail. OUT → Arduino D2.
