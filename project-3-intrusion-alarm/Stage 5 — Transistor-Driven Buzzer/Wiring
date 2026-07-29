@@ -1,0 +1,3 @@
+Insert the NPN transistor (flat side toward you, legs typically Emitter-Base-Collector left
+to right). Base → 1kΩ resistor → Arduino D7. Emitter → blue rail. Collector → one leg of the active
+buzzer; the buzzer’s other leg → red rail
