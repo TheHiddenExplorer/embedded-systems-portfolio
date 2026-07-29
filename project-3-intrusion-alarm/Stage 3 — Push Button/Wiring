@@ -1,0 +1,3 @@
+Place the button straddling the breadboard’s center gap (so its two pairs of legs land on
+separate rows either side). Connect one leg to Arduino D4. Connect the diagonally opposite leg to
+the blue (GND) rail.
