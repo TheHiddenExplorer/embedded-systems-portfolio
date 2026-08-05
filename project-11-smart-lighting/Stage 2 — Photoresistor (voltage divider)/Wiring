@@ -1,0 +1,2 @@
+LDR into two rows, 10kΩ resistor from LDR’s row to an empty row, LDR’s other leg → red
+rail, resistor’s other leg → blue rail, midpoint → A0.
