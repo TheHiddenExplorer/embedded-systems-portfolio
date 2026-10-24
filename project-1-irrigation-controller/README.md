@@ -6,7 +6,7 @@
 ## Problem This Solves
 Manual watering of plants or small crops wastes water and risks under- or over-watering, since
 it relies on guesswork rather than data. This project automates the decision using real sensor
-readings — a simplified version of the sensor-and-actuator logic used in commercial precision
+readings a simplified version of the sensor-and-actuator logic used in commercial precision
 agriculture systems.
 
 ## Parts List
