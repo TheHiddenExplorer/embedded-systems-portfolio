@@ -1,0 +1,3 @@
+One relay coil terminal → Pin 11 (OUT3). Other relay coil terminal → Pin 14 (OUT4).
+
+Place the 1N4007 diode directly across those same two coil terminals, stripe (cathode) end toward whichever terminal is more positive when energized (if using a bare coil rather than a pre-built relay module—pre-built modules already include this protection internally).
