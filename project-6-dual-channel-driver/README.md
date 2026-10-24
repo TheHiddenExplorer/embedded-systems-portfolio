@@ -1,5 +1,6 @@
 ## Project 6: Dual-Channel Industrial Alert & Output Driver Module (L293D)
-<img width="960" height="1280" alt="WhatsApp Image 2026-10-24 at 17 28 30" src="https://github.com/user-attachments/assets/3b9ca589-d65c-4669-b116-14224da695ca" />
+<img width="1280" height="960" alt="WhatsApp Image 2026-10-24 at 17 28 30" src="https://github.com/user-attachments/assets/d3626769-77ff-4990-b624-b45c282aa02f" />
+
 
 
 # Problem This Solves
