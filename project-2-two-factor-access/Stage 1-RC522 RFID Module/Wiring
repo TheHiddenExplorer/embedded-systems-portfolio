@@ -1,1 +1,5 @@
-
+The RC522 breaks out 8 pins: SDA,SCK,MOSI,MISO, IRQ,GND,RST,3.3V.1. 3.3V
+→the Arduino’sdedicated3. 3V pin,NOT the red 5V rail. This is the one component in the
+whole kit that cannot tolerate 5V. 2. GND→bluerail. 3. RST→ArduinoD9. 4. SDA→Arduino
+D10. 5.SCK→ArduinoD13. 6.MOSI→ArduinoD11. 7.MISO→ArduinoD12. 8. IRQ→leave
+unconnected(not used in this project)
