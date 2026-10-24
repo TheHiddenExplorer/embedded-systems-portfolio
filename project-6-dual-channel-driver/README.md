@@ -1,4 +1,6 @@
 ## Project 6: Dual-Channel Industrial Alert & Output Driver Module (L293D)
+<img width="960" height="1280" alt="WhatsApp Image 2026-10-24 at 17 28 30" src="https://github.com/user-attachments/assets/3b9ca589-d65c-4669-b116-14224da695ca" />
+
 
 # Problem This Solves
 Industrial control panels frequently need a microcontroller to independently drive two separate
@@ -15,18 +17,15 @@ L293D’s two independent H-bridge channels.
 • 1x Electrolytic capacitor (100µF, power-rail smoothing)
 • Breadboard, jumper wires
 
-# Wiring Diagram
---
-
 # Build & Test Process
 The L293D was placed and powered first, with its output voltage swing verified on a multimeter
 before any load was attached, confirming the chip itself was alive and switching correctly. The
-6
-active buzzer was added to Channel A and tested independently; the relay was added to Chan
-nel B (with 1N4007 flyback protection) and tested independently. Both channels were then
+active buzzer was added to Channel A and tested independently; the relay was added to Channel B
+(with 1N4007 flyback protection) and tested independently. Both channels were then
 combined into one sketch demonstrating independent and simultaneous switching, printing the
 current state to Serial Monitor for a clear demo.
-What I’d Improve With More Time
+
+# What I’d Improve With More Time
 • Add PWM-based intensity/volume control on each channel (the L293D’s enable pins support
 PWM) rather than simple on/off switching.
 • Extend to a full 2-motor demonstration if a spare DC motor becomes available, to show the
