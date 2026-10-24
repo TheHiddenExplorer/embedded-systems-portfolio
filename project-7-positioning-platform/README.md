@@ -1,4 +1,6 @@
 ## Project 7: Two-Axis Precision Positioning Platform (Mini Pen-Plotter Base)
+<img width="1280" height="960" alt="WhatsApp Image 2026-10-24 at 17 28 27" src="https://github.com/user-attachments/assets/bfa411d3-6fc8-490c-8263-fcb8305e1bd4" />
+
 
 # Problem This Solves
 Precise, repeatable positioning is the foundation of CNC machines, 3D printers, and camera
@@ -15,9 +17,6 @@ its positioning accuracy rather than just demonstrating that it moves.
 • Potentiometer (jog speed control)
 • 1x Electrolytic capacitor (100µF, motor power smoothing)
 • Breadboard, jumper wires
-
-# Wiring Diagram
---
 
 # Build & Test Process
 Each input/output device was wired and tested completely independently before combination,
