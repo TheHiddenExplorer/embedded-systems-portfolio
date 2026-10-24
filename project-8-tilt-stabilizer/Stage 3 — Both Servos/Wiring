@@ -1,0 +1,2 @@
+SG90: Signal → Arduino D9, V+ → red rail, GND → blue rail. 
+3V Servo: Signal → Arduino D10, V+ → red rail, GND → blue rail.
