@@ -27,17 +27,17 @@ sketches. Remote button codes were captured directly from Serial Monitor and map
 four target actions.
 
 ## Two implementation issues were identified and resolved duringtesting, both worth documenting explicitly since they reflect genuine debugging work rather than the project simply “working first time”:
-1. RawIRcodematchingwasunreliable. TheinitialversioncomparedIrReceiver.decodedIRData.decodedRawData
+1. Raw IR code matching was unreliable. The initial version compared IrReceiver.decodedIRData.decodedRawData
 directly. This worked for the first press of each button, but subsequent presses of the same
 button often produced different raw values (raw data can include repeat-frame/protocol
 specific bits that vary between transmissions), so commands stopped being recognised
 after the first press. Fix: switched to comparing IrReceiver.decodedIRData.command
 instead — this is the library’s already-decoded, protocol-independent button identifier, and
 it remains stable across repeated presses of the same button.
-2. The passive buzzer’s tone() call conflicted with the IR receiver. The IRremote library
+2. The passive buzzer’s tone() call conflicted with the IR receiver. The IR remote library
 uses a hardware timer to measure incoming IR pulsetimings; tone()alsoclaimsahardware
 timer to generate its square wave, and on the Uno these can collide — calling tone() was
-corrupting the next IRreception, againmakingonlythefirstbuttonpresspersessionappear
+corrupting the next IRreception, again making only the first button press per session appear
 to work. Fix: replaced the passive buzzer with an active buzzer, which has its own internal
 oscillator and only needs digitalWrite(pin, HIGH) to sound — this uses no timer at all,
 eliminating the conflict.
@@ -47,7 +47,7 @@ these issues straightforward to diagnose once the symptom (“only the first pre
 toward a timing/state issue rather than a wiring fault.
 
 # What I’d Improve With More Time
-• Support“longpress”and“doublepress”gesturesforadditionalfunctionsperbutton, rather
+• Support “long press” and “double press” gestures for additional functions per button, rather
 than one action per code.
 • Add persistent state (EEPROM) so the system remembers which “appliances” were on/off
 after a power cycle.
