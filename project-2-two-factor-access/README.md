@@ -1,4 +1,6 @@
 # Project 2: Two-Factor Secure Access Control System (RFID + Keypad)
+<img width="1280" height="960" alt="WhatsApp Image 2026-10-24 at 17 28 32" src="https://github.com/user-attachments/assets/82aca6c0-eaa4-453b-8ac2-c2008cd0e8c0" />
+
 
 ## Problem This Solves
 Single-factor access control(a cardalone, oraPINalone)is easy to defeat if the card is lost/stolen
@@ -17,9 +19,6 @@ in real building security systems, and this project implements that two-factor l
 • Resistors: 220Ω (x2 for LEDs), 1kΩ (transistor base)
 • Prototype expansion board (for final soldered build)
 • Breadboard, jumper wires
-
-## Wiring Diagram
---
 
 ## Build & Test Process
 The RC522 was wired and tested first using the MFRC522 library’s UID-read example to capture
