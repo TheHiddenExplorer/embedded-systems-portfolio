@@ -1,1 +1,2 @@
-
+Green LED:anode through 220Ω resistor→ArduinoA1,cathode→blue rail. Red LED:
+anode through 220Ω resistor→ArduinoA2,cathode→blue rail.
