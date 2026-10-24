@@ -29,12 +29,10 @@ All projects represent shared technical contributions, with equal involvement in
 | 1 | [Smart Agriculture Environmental Monitor & Automated Irrigation Controller](./project-1-irrigation-controller) | Multi-sensor integration, threshold logic, relay/inductive-load protection |
 | 2 | [Two-Factor Secure Access Control System (RFID + Keypad)](./project-2-two-factor-access) | SPI + matrix scanning, security state-machine design |
 | 3 | [Perimeter Intrusion Alarm with Tamper Detection](./project-3-intrusion-alarm) | Finite state machines, sensor fusion |
-| 4 | [Timestamped Event Logging Terminal](./project-4-event-logger) | I2C communication, real-time data logging *(pending RTC battery)* |
 | 5 | [IR Remote-Controlled Home Automation Hub](./project-5-ir-automation-hub) | IR protocol decoding, command-mapping design *(pending remote battery)* |
 | 6 | [Dual-Channel Industrial Alert & Output Driver Module](./project-6-dual-channel-driver) | H-bridge/driver IC operation, power-rail smoothing |
 | 7 | [Two-Axis Precision Positioning Platform](./project-7-positioning-platform) | Stepper motor control, quantified accuracy testing |
 | 8 | [Motion-Sensing Digital Tilt Level / Stabilization Platform](./project-8-tilt-stabilizer) | I2C sensor fusion, feedback control, signal smoothing |
-| 9 | [Digital Countdown Timer / Process Control Panel](./project-9-countdown-timer) | Display-driver ICs, non-blocking timing |
 | 10 | [Ultrasonic Smart Parking / Obstacle Proximity Alert System](./project-10-parking-assistant) | Ultrasonic timing, proportional feedback |
 | 11 | [Ambient-Reactive Smart Lighting Automation](./project-11-smart-lighting) | Combined-condition automation logic |
 
