@@ -1,2 +1,0 @@
-Button: one leg → Arduino D9, other leg → blue rail. LED: anode through 220Ω → Arduino
-D10, cathode → blue rail

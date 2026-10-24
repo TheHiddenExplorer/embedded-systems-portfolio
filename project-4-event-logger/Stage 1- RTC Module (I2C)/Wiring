@@ -1,3 +1,0 @@
-The RTC breaks out VCC, GND, SDA, SCL. VCC → red rail. GND → blue rail. SDA →
-Arduino A4. SCL → Arduino A5. These two pins are fixed — on the Uno, A4/A5 are internally wired
-as the dedicated I2C bus.
