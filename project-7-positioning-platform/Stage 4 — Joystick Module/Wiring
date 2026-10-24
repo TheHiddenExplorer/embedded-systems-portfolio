@@ -1,0 +1,1 @@
+GND → blue rail. +5V → red rail. VRx → Arduino A0. VRy → Arduino A1. SW → Arduino D5.
