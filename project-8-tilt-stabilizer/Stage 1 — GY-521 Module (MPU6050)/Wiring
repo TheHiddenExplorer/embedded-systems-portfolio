@@ -1,0 +1,4 @@
+VCC → red rail. GND → blue rail. SDA → Arduino A4. SCL → Arduino A5. 
+(Same fixed I2C pins as the RTC module in Project 4 — if you ever wanted 
+both modules on the same breadboard at once, they could share these same two wires, 
+since I2C supports multiple devices on one bus.)
