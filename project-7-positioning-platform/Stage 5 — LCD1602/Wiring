@@ -1,0 +1,6 @@
+This project’s LCD pin assignment is different from earlier projects 
+because most of the “easy” digital pins are already used by the stepper/encoder/joystick — pay close attention here.
+
+VSS → blue rail, VDD → red rail, V0 → contrast pot wiper. RS → Arduino D6. RW → blue rail. E → Arduino D7. 
+LCD D4 → Arduino D13. LCD D5 → Arduino A2. LCD D6 → Arduino A3. LCD D7 → Arduino A4. 
+Backlight A → 220Ω resistor → red rail. Backlight K → blue rail.
