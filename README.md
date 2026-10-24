@@ -10,6 +10,19 @@ This repo brings together 11 individual projects, each living in its own folder.
 - A wiring diagram image
 - (Where available) a demo photo or video link
 
+## Project Team & Contributors
+
+This portfolio was collaboratively developed by two engineering enthusiasts as a personal initiative to strengthen practical skills in embedded systems, electronics, and microcontroller-based development.
+
+Both contributors participated equally in the design, implementation, testing, and documentation of all 11 projects, working together throughout the development process.
+
+| Contributor | Role | Contributions |
+|---|---|---|
+| **Chelsea Moussoni** | Co-Developer | Collaborative hardware design, circuit assembly, Arduino programming, system integration, testing, and technical documentation |
+| **Hercy Tchitembo** | Co-Developer | Collaborative hardware design, circuit assembly, Arduino programming, system integration, testing, and technical documentation |
+
+All projects represent shared technical contributions, with equal involvement in problem-solving, development decisions, and practical implementation.
+
 ## Projects
 
 | # | Project | Core Skills Demonstrated |
