@@ -1,0 +1,8 @@
+The L293D is a 16-pin chip. Straddle it across the breadboard’s center gap so its two rows of pins land in separate columns (this is the standard way any DIP chip is placed on a breadboard).
+
+1. Pin 16 (top-left, VCC1 / logic supply) → red 5V rail.
+2. Pins 4, 5, 12, 13 (the four GND pins, two on each side) → blue GND rail.
+3. Pin 8 (VCC2 / motor supply, bottom-right area) → your separate 6–9V power-module rail.
+4. Place the 100µF electrolytic capacitor’s longer (+) leg into the same row as pin 8’s supply rail, and its shorter (−) leg / stripe side into the GND rail — this smooths that supply.
+5. Pin 1 (EN1) → Arduino D9. Pin 2 (IN1) → Arduino D8. Pin 7 (IN2) → Arduino D7.
+6. Pin 9 (EN2) → Arduino D6. Pin 10 (IN3) → Arduino D5. Pin 15 (IN4) → Arduino D4.
