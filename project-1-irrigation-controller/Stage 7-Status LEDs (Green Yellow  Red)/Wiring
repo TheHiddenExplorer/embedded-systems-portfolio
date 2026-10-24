@@ -1,1 +1,4 @@
-
+For each LED: insert it so its two legs sit in two separate rows. Place a 220Ω resistor from
+the LED’s anode (longer leg) row to an empty row, then jumper that row to the Arduino pin listed
+below. Connect the LED’s cathode (shorter leg) row directly to the blue rail.- Green LED → D6
+Yellow LED → D8- Red LED → D9
