@@ -36,7 +36,7 @@ HIGH/LOW before merging all sub-circuits into the final combined sketch, which i
 threshold-based irrigation logic and a low-water safety cutoff.
 
 ## What I’d Improve With More Time
-• Replacethefixedanalogthreshold logic with a rolling average filter to reduce false triggers
+• Replace the fixed analog threshold logic with a rolling average filter to reduce false triggers
 from sensor noise.
 • Add non-volatile storage (e.g., logging to an SD card module) for long-term environmental
 data rather than only live Serial Monitor output.
