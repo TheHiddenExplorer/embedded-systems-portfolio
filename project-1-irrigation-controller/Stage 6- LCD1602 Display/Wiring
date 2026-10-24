@@ -1,1 +1,9 @@
-
+The LCD header has 16 pins, typically labelled (left to right): VSS, VDD, V0, RS, RW, E,
+D0–D7, A, K. 1. VSS → blue rail. VDD → red rail. 2. V0 (contrast): take your second potentiometer
+temporarily (or a spare one) — outer legs to red/blue rails, wiper to V0. (If you only have the two
+potentiometers reserved for other pins in this project, you can instead run V0 through a single
+~1kΩ resistor to GND as a simpler fixed-contrast approach — adjust the resistor value if the text
+is invisible/too faint.) 3. RS → Arduino D12. RW → blue rail (GND) directly — we only ever write
+to the LCD, never read from it. E → Arduino D11. 4. D0, D1, D2, D3 → leave unconnected (we’re
+using 4-bit mode). D4 → Arduino D5. D5 → Arduino D4. D6 → Arduino D3. D7 → Arduino D2. 5. A
+(backlight anode) → through a 220Ω resistor → red rail. K (backlight cathode) → blue rail
