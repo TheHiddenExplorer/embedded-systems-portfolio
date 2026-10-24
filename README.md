@@ -7,7 +7,6 @@ A collection of practical, real-world-oriented embedded systems projects built u
 This repo brings together 11 individual projects, each living in its own folder. Every project folder contains:
 - Its own `README.md` — real-world problem addressed, parts list, wiring diagram, build/test process, and planned improvements
 - Arduino sketch(es) (`.ino` files), including individual stage-test sketches where relevant, plus the final combined code
-- A wiring diagram image
 - (Where available) a demo photo or video link
 
 ## Project Team & Contributors
