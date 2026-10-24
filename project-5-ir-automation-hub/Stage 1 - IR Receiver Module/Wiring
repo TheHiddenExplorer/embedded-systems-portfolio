@@ -1,0 +1,2 @@
+3 pins: VCC, GND, OUT (sometimes labelled S/Signal). VCC → redrail. GND → bluerail.
+OUT → Arduino D11.
