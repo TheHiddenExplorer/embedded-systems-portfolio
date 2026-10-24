@@ -1,0 +1,2 @@
+The servo has 3 wires: signal (usually orange/yellow), V+ (red), GND (brown/black). 
+Signal → Arduino D9. V+ → red rail. GND → blue rail.
