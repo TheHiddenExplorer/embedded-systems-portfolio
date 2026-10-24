@@ -1,4 +1,6 @@
 # Project 3: Perimeter Intrusion Alarm with Tamper Detection
+<img width="1408" height="1056" alt="WhatsApp Image 2026-10-24 at 18 03 06" src="https://github.com/user-attachments/assets/d0e283b7-eb29-4168-9a88-57062bd4a747" />
+
 
 ## Problem This Solves
 Basic motion-only alarms can be bypassed by disabling or moving the sensor housing itself. Com
