@@ -1,5 +1,8 @@
 # Project 1: Smart Agriculture Environmental Monitor & Automated Irrigation Controller
 
+<img width="1408" height="1056" alt="WhatsApp Image 2026-10-24 at 17 40 16" src="https://github.com/user-attachments/assets/d9510802-e371-4402-82e0-fbe6539f2cd9" />
+
+
 ## Problem This Solves
 Manual watering of plants or small crops wastes water and risks under- or over-watering, since
 it relies on guesswork rather than data. This project automates the decision using real sensor
@@ -21,9 +24,6 @@ agriculture systems.
 • 5Vrelay
 • Resistors: 220Ω (x3 for LEDs), 10kΩ (x3 for sensor dividers), 1kΩ (transistor base)
 • Breadboard, jumper wires, 9V power supply
-
-## Wiring Diagram
---
 
 ## Build & Test Process
 Built and tested incrementally: DHT11 confirmed alone via Serial Monitor, followed by the ther
