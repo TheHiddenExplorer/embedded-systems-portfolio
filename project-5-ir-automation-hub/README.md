@@ -1,4 +1,6 @@
 ## Project 5: IR Remote-Controlled Home Automation Hub
+<img width="1280" height="960" alt="WhatsApp Image 2026-10-24 at 17 28 18" src="https://github.com/user-attachments/assets/c6607485-ead7-4da7-bc84-2ed4f35744af" />
+
 
 # Problem This Solves
 A single remote controlling multiple household functions — lighting, blinds, appliances — is
@@ -8,16 +10,12 @@ command-mapping architecture.
 # Parts List
 • Arduino Uno-compatible controller board
 • IR receiver module + remote control
-• 5Vrelay (simulated appliance)
-• 1x NPNtransistor
-• 1x 1N4007 diode
+• 5V relay (simulated appliance)
 • Servo SG90 (simulated blind/curtain actuator)
-• RGBLED(mood lighting)
+• RGB LED(mood lighting)
 • Active buzzer (confirmation tones)
 • Resistors: 220Ω (x3 RGB LED), 1kΩ (transistor base)
 • Breadboard, jumper wires
-
-# Wiring Diagram
 
 # Build & Test Process
 The IR receiver module’s wiring was validated first, confirming signal reception on the correct
