@@ -27,7 +27,7 @@ nel B (with 1N4007 flyback protection) and tested independently. Both channels w
 combined into one sketch demonstrating independent and simultaneous switching, printing the
 current state to Serial Monitor for a clear demo.
 What I’d Improve With More Time
-• AddPWM-basedintensity/volumecontroloneachchannel(theL293D’senablepinssupport
+• Add PWM-based intensity/volume control on each channel (the L293D’s enable pins support
 PWM) rather than simple on/off switching.
 • Extend to a full 2-motor demonstration if a spare DC motor becomes available, to show the
 chip’s more typical bidirectional motor-control use case.
