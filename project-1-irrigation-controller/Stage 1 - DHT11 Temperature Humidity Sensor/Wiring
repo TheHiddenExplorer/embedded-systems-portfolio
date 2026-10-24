@@ -1,1 +1,3 @@
-
+ The DHT11 module (kit version) has 3 pins: VCC, GND, and Data (sometimes labelled
+“OUT” or “S”). Push the module’s pins into three separate breadboard rows. Run a jumper from
+VCC’s row to the red rail, from GND’s row to the blue rail, and from Data’s row to Arduino pin D7
