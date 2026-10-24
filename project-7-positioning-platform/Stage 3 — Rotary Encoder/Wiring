@@ -1,0 +1,2 @@
+GND → blue rail. + → red rail. CLK → Arduino D2. DT → Arduino D3. SW (built-in push
+button) → Arduino D4.
