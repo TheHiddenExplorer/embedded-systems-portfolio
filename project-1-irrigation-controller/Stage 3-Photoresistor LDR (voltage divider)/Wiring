@@ -1,1 +1,3 @@
-
+Identical pattern to the thermistor. Insert the LDR into two rows. Add a 10kΩ resistor
+from the LDR’s row to an empty row (creating the shared midpoint), LDR’s other leg → red rail,
+resistor’s other leg → blue rail, midpoint → Arduino A1
