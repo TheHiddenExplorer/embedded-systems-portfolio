@@ -1,0 +1,2 @@
+RGB LED: common leg → blue rail (if common cathode); R → 220Ω → D5, G → 220Ω → D6,
+B → 220Ω → D3. Passive buzzer: + → Arduino D10, − → blue rail.
