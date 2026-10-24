@@ -1,0 +1,3 @@
+VSS → blue rail, VDD → red rail, V0 → contrast pot wiper. RS → Arduino D2. 
+RW → blue rail. E → Arduino D3. LCD D4 → Arduino D4. LCD D5 → Arduino D5. 
+LCD D6 → Arduino D6. LCD D7 → Arduino D7. Backlight A → 220Ω resistor → red rail. Backlight K → blue rail.
