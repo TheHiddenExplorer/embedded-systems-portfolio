@@ -1,0 +1,5 @@
+ The stepper’s 5-pin connector plugs directly into the ULN2003 board’s onboard socket
+(they’re keyed to only fit one way — don’t force it). On the ULN2003 board itself: VCC → red rail
+(or, better, a separate 5V supply from your power module if you notice brownouts later — stepper
+motors can draw more current than the Arduino’s onboard regulator likes to supply). GND → blue
+rail. IN1 → Arduino D8. IN2 → Arduino D9. IN3 → Arduino D10. IN4 → Arduino D11.
