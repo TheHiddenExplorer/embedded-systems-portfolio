@@ -1,1 +1,5 @@
-
+A bare thermistor has 2 legs with no polarity. Insert it into two breadboard rows. Take a
+10kΩ resistor and put one leg into the same row as one of the thermistor’s legs (this creates the
+shared “midpoint” node), and its other leg into an empty row. Now wire: thermistor’s other leg →
+red (+) rail; resistor’s free leg → blue (−) rail; and run a jumper from the shared midpoint row →
+Arduino A0.
