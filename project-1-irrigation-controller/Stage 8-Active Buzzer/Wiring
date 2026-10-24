@@ -1,1 +1,3 @@
-
+ Insert the buzzer into two rows. Positive leg (often marked with a “+” on the case, or the
+longer leg) → Arduino D10 via a direct jumper (no resistor needed for this simple test — though
+many kits include a small onboard resistor already). Negative leg → blue rail
