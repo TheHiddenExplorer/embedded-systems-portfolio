@@ -1,4 +1,6 @@
 ## Project 8: Motion-Sensing Digital Tilt Level / Stabilization Platform (Single-Axis)
+<img width="1280" height="960" alt="WhatsApp Image 2026-10-24 at 17 28 20" src="https://github.com/user-attachments/assets/5559f85a-35eb-404f-be46-eec1f1d4ff0a" />
+
 
 # Problem This Solves
 Digital spirit levels and single-axis camera/gimbal stabilizers rely on exactly this sensor-and
@@ -12,9 +14,6 @@ a working version of both functions — a live digital level, and single-axis ac
 • LCD1602 display
 • Potentiometer (manual calibration offset)
 • Breadboard, jumper wires
-
-# Wiring Diagram
---
 
 # Build & Test Process
 The GY-521 was wired over I2C and tested with an I2C bus scan followed by a basic connection
